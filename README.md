@@ -58,12 +58,48 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
     - Example: wc file.txt
 
 ## 3. File Permissions
-*
-*
-*
-*
-*
-*
-*
+* chmod: Changes file or directory permissions.
+    - Example: chmod 755 file.txt
+* chown: Changes file ownership.
+    - Example: chown user:group file.txt
+* chgrp: Changes group ownership of a file.
+    - Example: chgrp group file.txt
+* umask: Sets default permissions for new files and directories.
+    - Example: umask 022
+## 4. System Monitoring
+* top: Displays real-time processes and resource usage.
+
+* htop: An interactive version of top (needs to be installed).
+
+*  ps: Lists running processes.
+    - Example: ps aux
+* df: Shows disk space usage.
+    - Example: df -h
+* du: Displays disk usage of a directory or file.
+    - Example: du -h folder
+* free: Displays memory usage.
+    - Example: free -h
+* uptime: Shows system uptime.
+    - Example: uptime
+* who: Displays logged-in users.
+    - Example: who
+* w: Shows who is logged in and what they are doing.
+    - Example: w
+ 
+## 5. Network Commands
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
