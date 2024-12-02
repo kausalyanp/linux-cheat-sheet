@@ -36,3 +36,34 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
   - Example: find / -name file.txt
 * locate: Finds files and directories quickly using a database.
   - Example: locate file.txt
+
+## 2. File Content Manipulation
+* cat: Displays the content of a file.
+    - Example: cat file.txt
+* tac: Displays the content of a file in reverse.
+    - Example: tac file.txt
+* less: Opens a file for viewing (scrollable).
+    - Example: less file.txt
+*  more: Views file content (less advanced than less).
+    - Example: more file.txt
+* head: Displays the first few lines of a file.
+    - Example: head -n 10 file.txt
+* tail: Displays the last few lines of a file.
+    - Example: tail -n 10 file.txt
+* nano: Opens a file in a simple text editor.
+    - Example: nano file.txt
+* vim: Opens a file in the Vim text editor.
+    - Example: vim file.txt
+* wc: Counts words, lines, and characters in a file.
+    - Example: wc file.txt
+
+## 3. File Permissions
+*
+*
+*
+*
+*
+*
+*
+
+
