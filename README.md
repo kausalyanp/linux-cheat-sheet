@@ -16,8 +16,10 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
 ## 1. File and Directory Management
 * ls: Lists files and directories.
   - Example: ls -l (detailed list view)
+    
 * cd: Changes the current directory.
   - Example: cd /home/user
+    
 * pwd: Displays the current working directory.
   - Example: pwd
 * mkdir: Creates a new directory.
@@ -40,8 +42,10 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
 ## 2. File Content Manipulation
 * cat: Displays the content of a file.
     - Example: cat file.txt
+      
 * tac: Displays the content of a file in reverse.
     - Example: tac file.txt
+      
 * less: Opens a file for viewing (scrollable).
     - Example: less file.txt
 *  more: Views file content (less advanced than less).
@@ -60,8 +64,10 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
 ## 3. File Permissions
 * chmod: Changes file or directory permissions.
     - Example: chmod 755 file.txt
+      
 * chown: Changes file ownership.
     - Example: chown user:group file.txt
+      
 * chgrp: Changes group ownership of a file.
     - Example: chgrp group file.txt
 * umask: Sets default permissions for new files and directories.
@@ -90,8 +96,10 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
 ## 5. Network Commands
 * ping: Tests network connectivity to a host.
     - Example: ping google.com
-ifconfig: Displays or configures network interfaces.
+      
+* ifconfig: Displays or configures network interfaces.
     - Example: ifconfig eth0
+  
 * ip: Configures network interfaces and routing (modern replacement for ifconfig).
     - Example: ip addr
 * netstat: Displays network connections and statistics.
@@ -106,6 +114,7 @@ ifconfig: Displays or configures network interfaces.
 ## 6. Process Management
 * kill: Terminates a process using its PID.
     - Example: kill 1234
+      
 * killall: Terminates all processes with a specific name.
     - Example: killall firefox
 * jobs: Lists background jobs.
@@ -118,6 +127,7 @@ ifconfig: Displays or configures network interfaces.
 ## 7. Archiving and Compression
 * tar: Archives files into a tarball.
     - Example: tar -cvf archive.tar files/
+      
 * gzip: Compresses files using the gzip algorithm.
     - Example: gzip file.txt
 * gunzip: Decompresses gzip files.
@@ -130,6 +140,7 @@ ifconfig: Displays or configures network interfaces.
 ## 8. User Management
 * whoami: Displays the current logged-in user.
     - Example: whoami
+      
 * id: Displays user ID, group ID, and other information.
     - Example: id
 * adduser: Adds a new user.
@@ -144,6 +155,7 @@ ifconfig: Displays or configures network interfaces.
 ## 9. Package Management (Debian/Ubuntu)
 * apt-get: Installs, upgrades, or removes packages.
     - Example: sudo apt-get install package-name
+      
 * apt: A user-friendly alternative to apt-get.
     - Example: sudo apt install package-name
 * dpkg: Installs or removes .deb packages.
@@ -152,6 +164,7 @@ ifconfig: Displays or configures network interfaces.
 ## 10. Others
 * echo: Displays text.
     - Example: echo "Hello, World!"
+      
 * date: Shows or sets the system date and time.
     - Example: date
 * cal: Displays a calendar.
