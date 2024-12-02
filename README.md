@@ -2,16 +2,16 @@
 This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
 
 ## Table of Contents:
-1. File and Directory Management
-2. File Content Manipulation
-3. File Permissions
-4. System Monitoring
-5. Network Commands
-6. Process Management
-7. Archiving and Compression
-8. User Management
-9. Package Management (Debian/Ubuntu)
-10. Others
+1. [File and Directory Management](#1-file-and-directory-management])
+2. [File Content Manipulation](#2-file-content-manipulation)
+3. [File Permissions](#3-file-permissions)
+4. [System Monitoring]()
+5. [Network Commands]()
+6. [Process Management]()
+7. [Archiving and Compression]()
+8. [User Management]()
+9. [Package Management (Debian/Ubuntu)]()
+10. [Others]()
 
 ## 1. File and Directory Management
 * ls: Lists files and directories.
