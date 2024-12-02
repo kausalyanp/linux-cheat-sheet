@@ -1,6 +1,8 @@
 # linux-cheat-sheet
 This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
 
+<a name="top"></a>
+
 ## Table of Contents:
 1. [File and Directory Management](#1-file-and-directory-management)
 2. [File Content Manipulation](#2-file-content-manipulation)
@@ -10,7 +12,7 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
 6. [Process Management](#6-process-management)
 7. [Archiving and Compression](#7-archiving-and-compression)
 8. [User Management](#8-user-management)
-9. [Package Management (Debian/Ubuntu)](#9-package-management-(debian/ubuntu))
+9. [Package Management (Debian/Ubuntu)](#9-package-management-debianubuntu)
 10. [Others](#10-others)
 
 ## 1. File and Directory Management
@@ -39,6 +41,8 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
 * locate: Finds files and directories quickly using a database.
   - Example: locate file.txt
 
+[Back to Top](#top)
+
 ## 2. File Content Manipulation
 * cat: Displays the content of a file.
     - Example: cat file.txt
@@ -61,6 +65,8 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
 * wc: Counts words, lines, and characters in a file.
     - Example: wc file.txt
 
+[Back to Top](#top)
+
 ## 3. File Permissions
 * chmod: Changes file or directory permissions.
     - Example: chmod 755 file.txt
@@ -72,6 +78,8 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
     - Example: chgrp group file.txt
 * umask: Sets default permissions for new files and directories.
     - Example: umask 022
+
+[Back to Top](#top)
 
 ## 4. System Monitoring
 * top: Displays real-time processes and resource usage.
@@ -92,7 +100,9 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
     - Example: who
 * w: Shows who is logged in and what they are doing.
     - Example: w
- 
+
+[Back to Top](#top)
+
 ## 5. Network Commands
 * ping: Tests network connectivity to a host.
     - Example: ping google.com
@@ -111,6 +121,8 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
 * curl: Transfers data from a URL.
     - Example: curl http://example.com
 
+[Back to Top](#top)
+
 ## 6. Process Management
 * kill: Terminates a process using its PID.
     - Example: kill 1234
@@ -124,6 +136,8 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
 * bg: Resumes a background job.
     - Example: bg %1
 
+[Back to Top](#top)
+
 ## 7. Archiving and Compression
 * tar: Archives files into a tarball.
     - Example: tar -cvf archive.tar files/
@@ -136,7 +150,9 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
     - Example: zip archive.zip file.txt
 * unzip: Extracts files from a zip archive.
     - Example: unzip archive.zip
- 
+
+[Back to Top](#top)
+
 ## 8. User Management
 * whoami: Displays the current logged-in user.
     - Example: whoami
@@ -151,6 +167,8 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
     - Example: usermod -aG groupname username
 * deluser: Deletes a user account.
     - Example: sudo deluser username
+
+[Back to Top](#top)
  
 ## 9. Package Management (Debian/Ubuntu)
 * apt-get: Installs, upgrades, or removes packages.
@@ -160,6 +178,8 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
     - Example: sudo apt install package-name
 * dpkg: Installs or removes .deb packages.
     - Example: sudo dpkg -i package.deb
+
+[Back to Top](#top)
  
 ## 10. Others
 * echo: Displays text.
@@ -178,7 +198,10 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
 * clear: Clears the terminal screen.
     - Example: clear
 
+[Back to Top](#top)
 
+This repo is created by Kausalya N P
+>> Users can copy this for educational purpose.
 
 
 
