@@ -66,6 +66,7 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
     - Example: chgrp group file.txt
 * umask: Sets default permissions for new files and directories.
     - Example: umask 022
+
 ## 4. System Monitoring
 * top: Displays real-time processes and resource usage.
 
@@ -87,12 +88,82 @@ This Cheat Sheet coontains most commnly and very uncommonly used linux commands.
     - Example: w
  
 ## 5. Network Commands
+* ping: Tests network connectivity to a host.
+    - Example: ping google.com
+ifconfig: Displays or configures network interfaces.
+    - Example: ifconfig eth0
+* ip: Configures network interfaces and routing (modern replacement for ifconfig).
+    - Example: ip addr
+* netstat: Displays network connections and statistics.
+    - Example: netstat -tuln
+* ss: Displays detailed network statistics (faster than netstat).
+    - Example: ss -tuln
+* wget: Downloads files from the internet.
+    - Example: wget http://example.com/file.txt
+* curl: Transfers data from a URL.
+    - Example: curl http://example.com
 
+## 6. Process Management
+* kill: Terminates a process using its PID.
+    - Example: kill 1234
+* killall: Terminates all processes with a specific name.
+    - Example: killall firefox
+* jobs: Lists background jobs.
+    - Example: jobs
+* fg: Brings a background job to the foreground.
+    - Example: fg %1
+* bg: Resumes a background job.
+    - Example: bg %1
 
-
-
-
-
+## 7. Archiving and Compression
+* tar: Archives files into a tarball.
+    - Example: tar -cvf archive.tar files/
+* gzip: Compresses files using the gzip algorithm.
+    - Example: gzip file.txt
+* gunzip: Decompresses gzip files.
+    - Example: gunzip file.txt.gz
+* zip: Compresses files into a zip archive.
+    - Example: zip archive.zip file.txt
+* unzip: Extracts files from a zip archive.
+    - Example: unzip archive.zip
+ 
+## 8. User Management
+* whoami: Displays the current logged-in user.
+    - Example: whoami
+* id: Displays user ID, group ID, and other information.
+    - Example: id
+* adduser: Adds a new user.
+    - Example: sudo adduser username
+* passwd: Changes the password for a user.
+    - Example: passwd
+* usermod: Modifies a user account.
+    - Example: usermod -aG groupname username
+* deluser: Deletes a user account.
+    - Example: sudo deluser username
+ 
+## 9. Package Management (Debian/Ubuntu)
+* apt-get: Installs, upgrades, or removes packages.
+    - Example: sudo apt-get install package-name
+* apt: A user-friendly alternative to apt-get.
+    - Example: sudo apt install package-name
+* dpkg: Installs or removes .deb packages.
+    - Example: sudo dpkg -i package.deb
+ 
+## 10. Others
+* echo: Displays text.
+    - Example: echo "Hello, World!"
+* date: Shows or sets the system date and time.
+    - Example: date
+* cal: Displays a calendar.
+    - Example: cal
+* shutdown: Shuts down the system.
+    - Example: sudo shutdown now
+* reboot: Reboots the system.
+    - Example: sudo reboot
+* alias: Creates a shortcut for a command.
+    - Example: alias ll='ls -l'
+* clear: Clears the terminal screen.
+    - Example: clear
 
 
 
